@@ -94,6 +94,19 @@ const vue_app = new Vue({
                   } else {
                         this.movies[index].posterindex = 0;
                   }
+            },
+
+            timeText(minutes) {
+                  var hours = Math.floor(minutes / 60)
+                  var realMin = minutes % 60
+
+                  var hoursMins = '';
+                  hoursMins = hours + 'h' + ' ' + realMin + 'm';
+                  
+                  return hoursMins;
+
+
+
             }
 
       }
