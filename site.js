@@ -77,9 +77,25 @@ const vue_app = new Vue({
 
                   return dateFormat;
 
+            },
 
+            like(index) {
+                  this.movies[index].likes += 1;
 
+            },
+            dislike(index) {
+                  this.movies[index].dislikes -= 1;
+
+            },
+
+            posterClick(index) {
+                  if ( this.movies[index].posterindex < (this.movies[index].posters.length)  ) {
+                        this.movies[index].posterindex += 1;
+                  } else {
+                        this.movies[index].posterindex = 0;
+                  }
             }
+
       }
 })
 	
