@@ -68,5 +68,47 @@
             "likes": 812,
             "dislikes": 101,
             "posterindex": 0
+      },
+      {
+            "title": "Avatar",
+            "iscore": 7.8,
+            "rating": "PG-13",
+            "runtime": 162,
+            "released": [2009, 12, 18],
+            "country": "USA",
+            "posters": ["img/avatar.jpg", "img/avatar2.jpg"],
+            "imdb": "https://www.imdb.com/title/tt0499549/",
+            "website": "http://www.avatarmovie.com/index.html",
+            "likes": 800,
+            "dislikes": 50,
+            "posterindex": 0
+      },
+      {
+            "title": "Interstellar",
+            "iscore": 8.6,
+            "rating": "PG-13",
+            "runtime": 169,
+            "released": [2014, 11, 7],
+            "country": "USA",
+            "posters": ["img/interstellar.jpg", "img/interstellar2.jpg"],
+            "imdb": "https://www.imdb.com/title/tt0816692/?ref_=fn_al_tt_1",
+            "website": "https://www.warnerbros.co.uk/movies/interstellar",
+            "likes": 600,
+            "dislikes": 80,
+            "posterindex": 0
+      },
+      {
+            "title": "John Wick",
+            "iscore": 7.3,
+            "rating": "R",
+            "runtime": 169,
+            "released": [2014, 10, 24],
+            "country": "USA",
+            "posters": ["img/jw.jpg", "img/jw2.jpg"],
+            "imdb": "https://www.imdb.com/title/tt2911666/?ref_=nv_sr_2?ref_=nv_sr_2",
+            "website": "https://www.johnwick.movie/\n\n",
+            "likes": 900,
+            "dislikes": 20,
+            "posterindex": 0
       }
 ]
